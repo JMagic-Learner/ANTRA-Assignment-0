@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/style.css" type="text/css" rel="stylesheet" />
+    <title>ANTRA REACT DEVELOPER - ASSIGNMENT 0</title>
+</head>
+
+<body>
+
+    <img id="main" src="Assets/antraLogo.png" alt="Intro=banner" \>
+
+    <div id="banner">
+        <h1> HTML ASSIGNMENT </h1>
+        <h2> Instructions </h2>
+        <ul>
+            <li> Good Formatting: Tags must be nested properly</li>
+            <li> Use a separate stylesheet: Dont use any inline styling</li>
+            <li> Responsiveness: Webpage must be responsive and adjustible</li>
+            <li> Go Vanilla: no use of any third party library</li>
+        </ul>
+        <!-- <button onclick="testOne()"> Click This Button </button> -->
+    </div>
+    <h1> SIGN UP </h1>
+
+
+
+    <form class="signup">
+
+        <!-- flexContainer is the overall flexbox parent -->
+        <!-- signup-container is the flexContainer's flex child -->
+        <!-- If an element needs to reside on the same row as another element, we would have to contain it in flexContainer + child component: signup-container-->
+    
+    <!-- Name Input -->    
+    <div class="flexContainer">
+            <div id="signup-container">
+                <input type="text" id="loginFirst" placeholder="First Name" name="firstName"><br><br>
+            </div>
+            <div id="signup-container">
+                <input type="text" id="loginLast" placeholder="Last Name" name="lastName"><br><br>
+            </div>
+        </div>
+        <br>
+
+     <!-- Phone Number Input -->
+        <div class="flexContainer">
+            <input type="text" id="loginMobile" name="loginMobile" placeholder="Mobile Number"><br><br>
+        </div>
+        <br>
+    
+    <!-- Email Input -->
+        <div class="flexContainer">
+            <input type="text" id="loginEmail" name="loginEmail" placeholder="Email Address"><br><br>
+        </div>
+        <br>
+    
+    <!-- Password Input -->
+        <div class="flexContainer">
+            <div id="signup-container">
+                <input type="text" id="loginPassword" placeholder="Password" name="password"><br><br>
+            </div>
+            <div id="signup-container">
+                <input type="text" id="loginConfirm" placeholder="Confirm Password" name="confirm"><br><br>
+            </div>
+        </div>
+
+    <!-- Consent Box -->
+        <div class="flexContainer">
+            <div id="signup-container">
+                <input type="checkbox" id="consentCheck" name="consentCheckbox" placeholder="consent"><br><br>
+            </div>
+            <div id="signup-container">
+                <label for="consent"> I agree </label>
+            </div>
+            <div id="signup-container">
+                <p> By clicking Register, you agree to the terms and conditions on this site </p>
+            </div>
+        </div>
+
+    </form>
+
+    <!-- Due to DOM rules, and the fact that when we load an webpage, we have to have these functions outside of the first [CLASS] signup-->
+    <!-- If we were to include these two flexContainer classes inside the above code, we would not be able to capture the id values-->
+    <div class="signup">
+        <div class="flexContainer">
+            <div id="signup-container">
+                <button id="register" onclick="register()">REGISTER </button>
+            </div>
+
+            <div id="signup-container">
+                <button id="login" onclick="login()"> SIGN IN </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="./Javascript/logic.js"></script>
+</body>
+
+</html>

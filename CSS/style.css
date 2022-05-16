@@ -1,0 +1,100 @@
+h1 {
+ text-align: center
+}
+
+h2 {
+    text-align:left;
+}
+
+li {
+    font-size:1.8vh ;
+}
+label {
+    font-size:1.8vw;
+}
+
+p {
+    font-size:1.8vw;
+}
+
+nav {
+    background-color:lightblue;
+    width:80%;
+    margin:auto;
+}
+
+#banner {
+    text-align: left;
+    width:80%;
+    margin: auto;
+}
+
+#main {
+    margin:auto;
+    
+}
+.flexContainer{
+margin:auto;
+text-align: center;
+display:flex;
+}
+
+.signup {
+  margin:auto;
+  width: 75%; 
+}
+
+#signup-container {
+    margin:auto;
+   
+}
+#loginFirst, #loginLast, #loginPassword, #loginConfirm{
+    width: 35vw;
+    height:50px;
+    font-size:1.8vh;   
+    border-radius: 10px;
+    border: 2px solid grey;
+ 
+}
+
+#loginMobile, #loginEmail {
+    margin:auto;
+    width:97.5%;
+    height:50px;
+    font-size:1.8vh;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+#consent, #consentCheck {
+    font-size:2.0vw; 
+} 
+
+#register {
+    background-color:#639cd9;
+    color: white;
+    width: 35vw;
+    height:7.5vh;
+    font-size:1.8vh;
+    border-radius: 10px;
+    border: 2px solid #639cd9;
+}
+
+#login {
+    background-color:greenyellow;
+    color: white;
+    width: 35vw;
+    height:7.5vh;
+    font-size:1.8vh;
+    border-radius: 10px;
+    border: 2px solid greenyellow ;
+}
+
+@media only screen and (max-width: 300px) {
+      #loginMobile, #loginEmail {
+          margin:auto;
+          width:75vw;
+          height:50px;
+          font-size:1.8vh;
+      }
+  }
