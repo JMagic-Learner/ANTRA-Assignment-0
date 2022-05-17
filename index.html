@@ -31,17 +31,15 @@
     <form class="signup">
 
         <!-- flexContainer is the overall flexbox parent -->
-        <!-- signup-container is the flexContainer's flex child -->
         <!-- If an element needs to reside on the same row as another element, we would have to contain it in flexContainer + child component: signup-container-->
     
     <!-- Name Input -->    
     <div class="flexContainer">
-            <div id="signup-container">
+            
                 <input type="text" id="loginFirst" placeholder="First Name" name="firstName"><br><br>
-            </div>
-            <div id="signup-container">
+            
                 <input type="text" id="loginLast" placeholder="Last Name" name="lastName"><br><br>
-            </div>
+            
         </div>
         <br>
 
@@ -59,12 +57,11 @@
     
     <!-- Password Input -->
         <div class="flexContainer">
-            <div id="signup-container">
+           
                 <input type="text" id="loginPassword" placeholder="Password" name="password"><br><br>
-            </div>
-            <div id="signup-container">
+         
                 <input type="text" id="loginConfirm" placeholder="Confirm Password" name="confirm"><br><br>
-            </div>
+           
         </div>
 
     <!-- Consent Box -->
@@ -76,7 +73,7 @@
                 <label for="consent"> I agree </label>
             </div>
             <div id="signup-container">
-                <p> By clicking Register, you agree to the terms and conditions on this site </p>
+                <p> By clicking <mark>Register</mark>, you agree to the terms and conditions on this site </p>
             </div>
         </div>
 
