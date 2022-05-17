@@ -41,7 +41,7 @@ display:flex;
 
 .signup {
   margin:auto;
-  width: 75%; 
+  width: 50%; 
 }
 
 #signup-container {
@@ -49,7 +49,7 @@ display:flex;
    
 }
 #loginFirst, #loginLast, #loginPassword, #loginConfirm{
-    width: 35vw;
+    width: 23vw;
     height:50px;
     font-size:1.8vh;   
     border-radius: 10px;
@@ -73,7 +73,7 @@ display:flex;
 #register {
     background-color:#639cd9;
     color: white;
-    width: 35vw;
+    width: 23vw;
     height:7.5vh;
     font-size:1.8vh;
     border-radius: 10px;
@@ -83,7 +83,7 @@ display:flex;
 #login {
     background-color:greenyellow;
     color: white;
-    width: 35vw;
+    width: 23vw;
     height:7.5vh;
     font-size:1.8vh;
     border-radius: 10px;
