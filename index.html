@@ -37,7 +37,7 @@
     <div class="flexContainer">
             
                 <input type="text" id="loginFirst" placeholder="First Name" name="firstName"><br><br>
-            
+                <span></span>
                 <input type="text" id="loginLast" placeholder="Last Name" name="lastName"><br><br>
             
         </div>
@@ -57,11 +57,9 @@
     
     <!-- Password Input -->
         <div class="flexContainer">
-           
                 <input type="text" id="loginPassword" placeholder="Password" name="password"><br><br>
-         
+                <span></span>
                 <input type="text" id="loginConfirm" placeholder="Confirm Password" name="confirm"><br><br>
-           
         </div>
 
     <!-- Consent Box -->
@@ -70,10 +68,11 @@
                 <input type="checkbox" id="consentCheck" name="consentCheckbox" placeholder="consent"><br><br>
             </div>
             <div id="signup-container">
-                <label for="consent"> I agree </label>
+                <label for="consent-check"> I agree </label>
             </div>
-            <div id="signup-container">
-                <p> By clicking <mark>Register</mark>, you agree to the terms and conditions on this site </p>
+            <span class="medium"></span>
+            <div id="register-text">
+                <p> By clicking <mark class="highlight">Register</mark>, you agree to the <mark class="outline">Terms and Conditions</mark> on this site, including our cookie use </p>
             </div>
         </div>
 
@@ -83,13 +82,11 @@
     <!-- If we were to include these two flexContainer classes inside the above code, we would not be able to capture the id values-->
     <div class="signup">
         <div class="flexContainer">
-            <div id="signup-container">
+            
                 <button id="register" onclick="register()">REGISTER </button>
-            </div>
-
-            <div id="signup-container">
+                <span></span>
                 <button id="login" onclick="login()"> SIGN IN </button>
-            </div>
+         
         </div>
     </div>
 

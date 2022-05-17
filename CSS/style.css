@@ -14,7 +14,7 @@ label {
 }
 
 p {
-    font-size:1.8vw;
+    font-size:1.5vh;
 }
 
 nav {
@@ -41,17 +41,27 @@ display:flex;
 
 .signup {
   margin:auto;
-  width: 50%; 
+  width: 40%; 
+}
+
+span {
+    margin-left:2%;
+}
+
+.medium {
+    margin-left:12%;
 }
 
 #signup-container {
     margin:auto;
+    text-align:left;
    
 }
 #loginFirst, #loginLast, #loginPassword, #loginConfirm{
     width: 50%;
     height:50px;
-    font-size:1.8vh;   
+    font-size:1.8vh;
+    margin:auto;   
     border-radius: 10px;
     border: 2px solid grey;
  
@@ -67,27 +77,43 @@ display:flex;
 }
 
 #consent, #consentCheck {
-    font-size:2.0vw; 
+    font-size:1.8vw; 
 } 
 
-#register, mark {
+#register-text {
+  
+    width: 70%;
+    font-size:1.5vw;
+    text-align:left;
+   
+}
+#register, .highlight {
     background-color:#639cd9;
     color: white;
-    width: 23vw;
+    width: 50%;
     height:7.5vh;
     font-size:1.8vh;
     border-radius: 10px;
     border: 2px solid #639cd9;
 }
 
+.outline{
+    background-color:white;
+    color:#639cd9;
+}
+
 #login {
-    background-color:greenyellow;
+    background-color:rgb(14, 159, 14);
     color: white;
-    width: 23vw;
+    width: 50%;
     height:7.5vh;
     font-size:1.8vh;
     border-radius: 10px;
-    border: 2px solid greenyellow ;
+    border: 2px solid rgb(14, 159, 14) ;
+}
+
+#main {
+    padding-left:30%;
 }
 
 @media only screen and (max-width: 300px) {
